@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Calculadora</title>
+</h:head>
+<h:body>
+	<style type = "text/css">
+		body {
+			background-image: url(https://media.discordapp.net/attachments/690215832386535465/756166770171314254/ffd718d5fdbaa9c6a3b542ed43e0e484.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		div {
+			width: 500px;
+			background-color: rgba(0,0,0,0.7);
+			border: 1px ;
+			margin: 0 auto;
+		}
+
+		.output{
+			color: aliceblue;
+
+		}
+	</style>
+	<h1 align="center" style="color: azure">Calculadora estadistica </h1>
+	<div >
+		<h:form id="calculadora_form" style="margin-bottom:10px;" >
+			<h:panelGrid  class="myPanelGrid" columns="2"  >
+				<h:panelGrid columns="2"  border="2" >
+					<p:outputLabel class="output" value="Entrada:"/>
+					<h:inputText id="lista" type="text" binding="#{input}" />
+					<p:outputLabel class="output" value="Moda:" />
+					<p:outputLabel class="output" value="#{calculadoraBean.mode}" />
+					<p:outputLabel class="output" value="Media:" />
+					<p:outputLabel class="output" value="#{calculadoraBean.mean}" />
+					<p:outputLabel class="output" value="Desviacion Estandar:" />
+					<p:outputLabel class="output" value="#{calculadoraBean.standar}" />
+					<p:outputLabel class="output" value="Varianza:" />
+					<p:outputLabel class="output" value="#{calculadoraBean.variance}" />
+				</h:panelGrid>
+				<h:panelGrid columns="1"   >
+					<p:commandButton value="Calcular"  update="calculadora_form" actionListener="#{calculadoraBean.calculate(input.value)}"/>
+					<p:commandButton value="Reiniciar" update="calculadora_form" actionListener="#{calculadoraBean.restart}"/>
+				</h:panelGrid>
+			</h:panelGrid>
+
+
+
+
+		</h:form>
+
+	</div>
+
+	
+	
+	
+
+    
+</h:body>
+</html>
