@@ -2,11 +2,8 @@ package edu.eci.cvds.servlet;
 
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
-import javax.swing.JOptionPane;
-
 import java.lang.Math;
 import java.util.ArrayList;
-
 import static java.lang.Math.sqrt;
 
 
@@ -67,7 +64,8 @@ public class CalculadoraBean {
     }
     
     public void calculateMode(ArrayList<Double> list){
-        int times = -1,count;
+        int times = -1;
+		int count;
         mode = 0;
         for(int i = 0; i < length; i++){
             double act = numbers.get(i);

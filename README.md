@@ -2,11 +2,9 @@
 ## __Escuela Colombiana de Ingeniería__
 ## __Ciclos de Vida de Desarrollo de Software__
 
-# __Parte I. Integración continua__
-Ingrese al repositorio de [WebApp-Heroku-CircleCI-CI en GitHub](https://github.com/PDSW-ECI/WebApp-Heroku-CircleCI-CI) y resuelva el laboratorio allí especificado usando el proyecto creado en el  Laboratorio 5 - MVC Primefaces Introduction - 2020-2.
 
-# __Parte II. Interfaz Gráfica__
+[![Rincon10](https://circleci.com/gh/Rincon10/CVDS-LAB06/tree/master.svg?style=svg)](https://circleci.com/gh/Rincon10/CVDS-LAB06/tree/master)
 
-Agregue mayor detalle a la interfaz gráfica de la página web para que se vea más amigable al usuario. Busque y agregue estilos, colores de fondo, títulos, centrar la página, etc. cualquier elemento o detalle que pueda mejorar cómo se ve la página y como el usuario la percibe.
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ca8e3bc350244f95b07d22afb273380d)](https://www.codacy.com/manual/Rincon10/CVDS-LAB06?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Rincon10/CVDS-LAB06&amp;utm_campaign=Badge_Grade)
 
-Si no recuerda cómo hacerlo, puede revisar la información disponible en W3Schools para [HTML](https://www.w3schools.com/html/) y [CSS](https://www.w3schools.com/css/).
+
