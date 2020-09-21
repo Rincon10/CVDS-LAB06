@@ -1,4 +1,7 @@
 # __Laboratorio 6 - Introducción CI - 2020-2__
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0b197155812d4c78aa790727bc58c904)](https://app.codacy.com/manual/Rincon10/CVDS-LAB06?utm_source=github.com&utm_medium=referral&utm_content=Rincon10/CVDS-LAB06&utm_campaign=Badge_Grade_Settings)
+
 ## __Escuela Colombiana de Ingeniería__
 ## __Ciclos de Vida de Desarrollo de Software__
 
