@@ -1,7 +1,4 @@
 # __Laboratorio 6 - Introducción CI - 2020-2__
-## __Escuela Colombiana de Ingeniería__
-## __Ciclos de Vida de Desarrollo de Software__
-
 
 [![Rincon10](https://circleci.com/gh/Rincon10/CVDS-LAB06/tree/master.svg?style=svg)](https://circleci.com/gh/Rincon10/CVDS-LAB06/tree/master)
 
