@@ -4,4 +4,8 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ca8e3bc350244f95b07d22afb273380d)](https://www.codacy.com/manual/Rincon10/CVDS-LAB06?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Rincon10/CVDS-LAB06&amp;utm_campaign=Badge_Grade)
 
+### __Autores__
+
+* Camilo Rincón [Rincon10](https://github.com/Rincon10)
+* Leonardo Galeano [Ersocaut](https://github.com/Ersocaut)
 
